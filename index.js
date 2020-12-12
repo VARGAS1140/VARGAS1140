@@ -1464,9 +1464,7 @@ if (text.includes("!alay")){
 
 
 
-else if (text == '#help') { conn.sendMessage(id, '*#menu* : untuk menampilkan fitur bot
-*#grup* : untuk bergabung ke grup 
-*!donasi* : untuk donasi ke bot' ,MessageType.text); }
+
 
 //Tolonglah bro jangan di ubah ubah Aris187 ID
 
