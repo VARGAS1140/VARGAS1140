@@ -1456,15 +1456,15 @@ if (text.includes("!alay")){
 		{ let hasil = `${res.data.result}`
 		conn.sendMessage(id, hasil, MessageType.text)
 	})
-}  else if (text == '#grup') { conn.sendMessage(id, 'Jangan lupa join ya
+}
 
-Grup ke 1
 
-https://chat.whatsapp.com/BkH2qUhWSHFGgbjSDGmL2e
 
-Grup ke 2
 
-https://chat.whatsapp.com/C5S0KAtCxNBJZ4Cp9LdxMQ' ,MessageType.text); }  else if (text == '#help') { conn.sendMessage(id, '*#menu* : untuk menampilkan fitur bot
+
+
+
+else if (text == '#help') { conn.sendMessage(id, '*#menu* : untuk menampilkan fitur bot
 *#grup* : untuk bergabung ke grup 
 *!donasi* : untuk donasi ke bot' ,MessageType.text); }
 
