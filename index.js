@@ -1449,9 +1449,7 @@ if (text.includes("!lirik")){
 	 	let hasil = ` *🎧Lirik🎧 Lagu ${aris}:* \n\n\n _${res.data.result}_ `
 	conn.sendMessage(id, hasil, MessageType.text)
 	})
-} else if (text == '#help') { conn.sendMessage(id, '*#menu* : untuk menampilkan fitur bot
-*#grup* : untuk bergabung ke grup 
-*!donasi* : untuk donasi ke bot' ,MessageType.text); }
+} 
 if (text.includes("!alay")){
 	const aris = text.replace(/!alay /, "")
 	axios.get(`https://arugaz.herokuapp.com/api/bapakfont?kata=${aris}`).then ((res) =>
@@ -1466,7 +1464,9 @@ https://chat.whatsapp.com/BkH2qUhWSHFGgbjSDGmL2e
 
 Grup ke 2
 
-https://chat.whatsapp.com/C5S0KAtCxNBJZ4Cp9LdxMQ' ,MessageType.text); }
+https://chat.whatsapp.com/C5S0KAtCxNBJZ4Cp9LdxMQ' ,MessageType.text); } else if (text == '#help') { conn.sendMessage(id, '*#menu* : untuk menampilkan fitur bot
+*#grup* : untuk bergabung ke grup 
+*!donasi* : untuk donasi ke bot' ,MessageType.text); }
 
 //Tolonglah bro jangan di ubah ubah Aris187 ID
 
